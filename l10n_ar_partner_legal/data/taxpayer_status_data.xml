@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<odoo noupdate="1">
+
+    <record id="taxpayer_status_common" model="account.taxpayer_status">
+        <field name="name">Payer of income tax on general terms</field>
+    </record>
+
+    <record id="taxpayer_status_fop_2" model="account.taxpayer_status">
+        <field name="name">Single tax payer of the 2nd group</field>
+    </record>
+
+    <record id="taxpayer_status_fop_3" model="account.taxpayer_status">
+        <field name="name">Single tax payer of the 3rd group</field>
+    </record>
+
+</odoo>

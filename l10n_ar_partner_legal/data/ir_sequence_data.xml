@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo noupdate="1">
+
+    <record id="seq_report_proforma" model="ir.sequence" forcecreate="True">
+        <field name="name">Нумерація рахунків-фактур</field>
+        <field name="prefix">%(year)s-</field>
+        <field name="padding">4</field>
+        <field name="use_date_range" eval="True"/>
+    </record>
+
+    <record id="seq_report_invoice" model="ir.sequence" forcecreate="True">
+        <field name="name">Нумерація видаткових накладних</field>
+        <field name="prefix">%(year)s-</field>
+        <field name="padding">4</field>
+        <field name="use_date_range" eval="True"/>
+    </record>
+
+    <record id="seq_report_acceptance_act" model="ir.sequence" forcecreate="True">
+        <field name="name">Нумерація актів виконаних послуг</field>
+        <field name="prefix">%(year)s-</field>
+        <field name="padding">4</field>
+        <field name="use_date_range" eval="True"/>
+    </record>
+
+</odoo>

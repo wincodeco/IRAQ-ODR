@@ -1,0 +1,146 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_ar_partner_legal
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-07 16:51+0000\n"
+"PO-Revision-Date: 2020-08-07 16:51+0000\n"
+"Last-Translator: \n"
+"Langanuage-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__company_registry
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__company_registry
+msgid "Code EDRPOU"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model,name:l10n_ua_partner_legal.model_res_company
+msgid "Companies"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model,name:l10n_ua_partner_legal.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_company__director
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__director
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__director
+msgid "Director"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields.selection,name:l10n_ua_partner_legal.selection__res_partner__legal_type__fop
+msgid "FOP"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields.selection,name:l10n_ua_partner_legal.selection__res_partner__legal_type__legal_entity
+msgid "Legal Entity"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model_terms:ir.ui.view,arch_db:l10n_ua_partner_legal.view_partner_property_form_inherit_l10n_ua_partner_legal
+msgid "Legal Information"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__legal_type
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__legal_type
+msgid "Legal Type"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__legal_name
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__legal_name
+msgid "Legal name"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,help:l10n_ua_partner_legal.field_res_partner__signature
+msgid "Partner Signature"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__registration_certificate
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__registration_certificate
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_company__registration_certificate
+msgid "Registration certificate"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model_terms:ir.ui.view,arch_db:l10n_ua_partner_legal.view_partner_property_form_inherit_l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__signature
+msgid "Signature"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_account_taxpayer_status__name
+msgid "Status name"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__taxpayer_status_id
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__taxpayer_status_id
+msgid "Taxpayer Status"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model,name:l10n_ua_partner_legal.model_account_taxpayer_status
+msgid "Taxpayer Statuses"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_company__taxpayer_status_id
+msgid "Taxpayer status"
+msgstr ""
+
+#. module: l10n_ua_partner_legal
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_users__is_vat_payer
+#: model:ir.model.fields,field_description:l10n_ua_partner_legal.field_res_partner__is_vat_payer
+msgid "VAT payer"
+msgstr ""

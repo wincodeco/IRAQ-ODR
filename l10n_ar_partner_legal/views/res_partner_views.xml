@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="view_partner_property_form" model="ir.ui.view">
+        <field name="name">view.partner.property.form.inherit.l10n.ar.partner.legal</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//group[@name='fiscal_information']" position="before">
+                <group string="Legal Information" name="legal_information">
+                    <field name="legal_name"/>
+                    <field name="legal_type"/>
+                    <field name="company_registry"/>
+                    <field name="director"/>
+                </group>
+                <group string="Signature" name="signature">
+                    <field name="signature" widget="image" nolabel="1" options="{'size': [200, 400]}"/>
+                </group>
+            </xpath>
+            <xpath expr="//group[@name='fiscal_information']" position="inside">
+                <field name="registration_certificate"/>
+                <field name="taxpayer_status_id"/>
+                <field name="is_vat_payer"/>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>
