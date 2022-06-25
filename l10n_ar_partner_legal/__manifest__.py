@@ -5,7 +5,7 @@
     'category': 'Localization',
     'author': 'Wincode',
     'maintainer': 'Wincode',
-    'price': '40.0',
+    'price': '140.0',
     'currency': 'USD',
     'website': 'https://wincode.io',
     'license': 'LGPL-3',
